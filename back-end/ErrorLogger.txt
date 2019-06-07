@@ -1,0 +1,92 @@
+TypeError: flightBookingDAL.getAllBookingIds is not a function
+    at Object.FlightBookingBL.getAllBookingIds (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:5:29)
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/routes/routes.js:7:19
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:174:3)
+ReferenceError: bookingId is not defined
+    at Object.FlightBookingBL.viewBookingId (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:43)
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/routes/routes.js:19:19
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:410:3)
+ReferenceError: body is not defined
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/routes/routes.js:28:28
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:47:12)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:129
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'result' of undefined
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:74:43
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:72:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'availableSeats' of null
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingDataAccessLayer.js:73:132
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'then' of undefined
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/routes/routes.js:40:36
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:47:12)
