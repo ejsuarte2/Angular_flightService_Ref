@@ -28,15 +28,15 @@
           </div>
 
           <div class="form-group">
-            <button class="btn btn-primary" type="submit" [disabled]="!bookingForm.valid">Book</button>
+            <button class="btn btn-primary btn-block" type="submit" [disabled]="!bookingForm.valid">Book</button>
           </div>
         </form>
 
         <div *ngIf="errorMessage!=null">
-          <span class="error">{{errorMessage}}</span>
+          <span class="error-message">{{errorMessage}}</span>
         </div>
         <div *ngIf="successMessage!=null">
-          <span *ngIf="successMessage!=null">{{successMessage}}</span>
+          <span class ="success-message">{{successMessage}}</span>
         </div>
       </div>
 

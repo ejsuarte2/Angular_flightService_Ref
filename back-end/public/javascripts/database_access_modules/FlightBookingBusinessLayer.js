@@ -7,7 +7,7 @@ FlightBookingBL.bookFlight = function(flightBooking){
 
     /**Ensure Valid flight Id per requirements */
     validator.validateFlightId(flightBooking.flightId);
-    return flightBookingDAL.checkAvailability(flightBooking).then(function(flight){
+    return flightBookingDAL.checkAvailability(flightBooking.flightId).then(function(flight){
               /**Ensure flight exists */
         if(flight == null || flight.status == 'Cancelled'){
             throw new Error("Flight Unavailable or cancelled");

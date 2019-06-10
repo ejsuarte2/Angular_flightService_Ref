@@ -90,3 +90,66 @@ TypeError: Cannot read property 'then' of undefined
     at next (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:275:10)
     at Function.handle (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:174:3)
     at router (/Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/node_modules/express/lib/router/index.js:47:12)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Flight Unavailable or cancelled
+    at /Users/erickduarte/Desktop/development/Angular(MEAN)/back-end/public/javascripts/database_access_modules/FlightBookingBusinessLayer.js:13:19
+    at process._tickCallback (internal/process/next_tick.js:68:7)

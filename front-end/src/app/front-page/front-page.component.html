@@ -1,0 +1,17 @@
+<div *ngIf="!hidden">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <h1 class="align">Welcome to Flight Booking System!</h1>
+        <br>
+        <h2>Quick Guidelines</h2>
+        <br>
+        <ol>
+          <li>While booking enter proper flight Id (having a 3 digit number).</li>
+          <li>Number of booking tickets can not be more than 40.</li>
+        </ol>
+        <br>
+        <button class="btn btn-info btn-block" (click)="agreed(1)">Got it!</button>
+        <button class="btn btn-info btn-block" (click)="agreed(2)">View Bookings</button>
+    </div>
+  </div>
+</div>

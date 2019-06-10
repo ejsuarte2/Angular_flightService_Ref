@@ -11,6 +11,7 @@ import {ViewDetailsService} from './view-details.service';
 export class ViewDetailsComponent implements OnInit {
 
   flightDetails : FlightBooking[];
+  singleFlight : FlightBooking;
   successMessage;
   errorMessage;
 
@@ -24,7 +25,11 @@ export class ViewDetailsComponent implements OnInit {
   ngOnInit() {
     this.view();
   }
-
+  clearSearch(){
+    this.singleFlight=null;
+    this.viewbookingForm.reset();
+    this.view();
+  }
   view(){
     this.viewdetailsservice.view().subscribe(
       flightDetails =>{
@@ -32,10 +37,24 @@ export class ViewDetailsComponent implements OnInit {
       }
     )
   }
-
+  viewDetails(){
+    //look for service Id
+    var bookingId = (this.viewbookingForm.controls.bookingId.value);
+    this.viewdetailsservice.viewIdDetails(bookingId).subscribe(
+      res=>{
+        this.singleFlight=res;
+        console.log(this.singleFlight);
+      },
+      err=>{
+        console.log(err);
+      }
+    );
+  }
   delete(id){
     this.viewdetailsservice.delete(id).subscribe(
       res => {
+        this.singleFlight=null;
+        this.view();
         this.successMessage = res.message;
       },
       error => {

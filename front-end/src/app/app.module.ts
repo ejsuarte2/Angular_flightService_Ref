@@ -8,13 +8,15 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { BookFlightComponent } from './book-flight/book-flight.component';
 import { ViewDetailsComponent } from './view-details/view-details.component';
+import { FrontPageComponent } from './front-page/front-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BookFlightComponent,
-    ViewDetailsComponent
+    ViewDetailsComponent,
+    FrontPageComponent
   ],
   imports: [
     BrowserModule,

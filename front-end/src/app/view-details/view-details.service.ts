@@ -11,12 +11,13 @@ export class ViewDetailsService {
   constructor(private http: HttpClient) { }
 
   view(): Observable<FlightBooking[]> {
-
     return this.http.get<FlightBooking[]>("http://localhost:1020/getallIds");
   }
 
   delete(id): Observable<any>{
-
     return this.http.post<any>("http://localhost:1020/delete",{"id":id});
+  }
+  viewIdDetails(id): Observable<FlightBooking>{
+    return this.http.get<FlightBooking>("http://localhost:1020/viewBookingId/"+id);
   }
 }

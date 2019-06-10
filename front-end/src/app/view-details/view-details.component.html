@@ -12,11 +12,29 @@
             <span class="error-message" *ngIf="!viewbookingForm.controls.bookingId.valid && viewbookingForm.controls.bookingId.dirty">Enter the 4 digit BookingId</span>
           </div>
           <div class="form-group">
-            <button class="btn btn-primary" type="submit" [disabled]="!viewbookingForm.valid">View Details</button>
+            <button class="btn btn-primary" type="button" (click)="viewDetails()" [disabled]="!viewbookingForm.valid">View Details</button>
+            <button class="btn btn-primary" type="button" (click)="clearSearch()">Clear Search</button>
           </div>
         </form>
 
-        <table class="table table-bordered">
+        <table *ngIf="singleFlight" class="table table-bordered">
+          <tr>
+            <th>Passenger Name</th>
+            <th>Booking Id</th>
+            <th>No of Tickets</th>
+            <th>Ammount</th>
+            <th>Delete</th>
+          </tr>
+          <tr>
+            <td>{{singleFlight.passengerName}}</td>
+            <td>{{singleFlight.bookingId}}</td>
+            <td>{{singleFlight.noOfTickets}}</td>
+            <td>{{singleFlight.totalAmount}}</td>
+            <td><button type="button" class="btn btn-danger" (click)="delete(singleFlight.bookingId)">Delete</button></td>
+          </tr>
+        </table>
+
+        <table *ngIf="!singleFlight" class="table table-bordered">
           <tr>
             <th>Passenger Name</th>
             <th>Booking Id</th>
@@ -30,9 +48,9 @@
             <td>{{flight.bookingId}}</td>
             <td>{{flight.noOfTickets}}</td>
             <td>{{flight.totalAmount}}</td>
-            <td><button type="button" class="btn btn-danger" (click)="delete(flight.bookingId)"
-              [disabled]="flight.totalAmount>=500">Delete</button></td>
+            <td><button type="button" class="btn btn-danger" (click)="delete(flight.bookingId)">Delete</button></td>
           </tr>
+
         </table>
 
         <div *ngIf="errorMessage !=null">

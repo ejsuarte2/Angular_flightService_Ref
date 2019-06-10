@@ -81,7 +81,7 @@ FlightBookingDAL.bookFlight = function(flight){
 }
 
 FlightBookingDAL.checkAvailability = function(flightId){
-
+    console.log( JSON.stringify(flightId));
     /**1. Establish a connection */
     return connection.getConnection().then(function(db){
         /**2. Retrieve needed collection */
