@@ -12,6 +12,7 @@ export class ViewDetailsComponent implements OnInit {
 
   flightDetails : FlightBooking[];
   singleFlight : FlightBooking;
+  flightNotFoundErr;
   successMessage;
   errorMessage;
 
@@ -27,6 +28,7 @@ export class ViewDetailsComponent implements OnInit {
   }
   clearSearch(){
     this.singleFlight=null;
+    this.flightNotFoundErr=null;
     this.viewbookingForm.reset();
     this.view();
   }
@@ -42,10 +44,16 @@ export class ViewDetailsComponent implements OnInit {
     var bookingId = (this.viewbookingForm.controls.bookingId.value);
     this.viewdetailsservice.viewIdDetails(bookingId).subscribe(
       res=>{
-        this.singleFlight=res;
-        console.log(this.singleFlight);
+        if(res.bookingId){
+          this.singleFlight=res;
+          this.flightNotFoundErr = null;
+        }else{
+          this.singleFlight=null;
+          this.flightNotFoundErr = "Flight Not Found!"
+        }
       },
       err=>{
+        this.flightNotFoundErr = "Unable to process request!"
         console.log(err);
       }
     );

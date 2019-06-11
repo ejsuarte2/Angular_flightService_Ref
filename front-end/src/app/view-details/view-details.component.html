@@ -33,8 +33,12 @@
             <td><button type="button" class="btn btn-danger" (click)="delete(singleFlight.bookingId)">Delete</button></td>
           </tr>
         </table>
+        
+        <div *ngIf="flightNotFoundErr!=null">
+          <span class="error">{{flightNotFoundErr}}</span>
+        </div>
 
-        <table *ngIf="!singleFlight" class="table table-bordered">
+        <table *ngIf="!singleFlight && !flightNotFoundErr" class="table table-bordered">
           <tr>
             <th>Passenger Name</th>
             <th>Booking Id</th>
