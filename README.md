@@ -4,6 +4,7 @@ To RUN:
   Ensure Mongoose is installed, NodeJS, and angularCLI
   
   MONGOOSE
+  Refer to: https://zellwk.com/blog/install-mongodb/
 1. Start mongo server on terminal: type mongod
 2. Start mongo client on a seperate terminal: type mongo
 3. Copy the content from table sample inputs and paste on mongo client to execute record creations.
